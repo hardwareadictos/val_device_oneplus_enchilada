@@ -39,6 +39,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-oem.xml:system/etc/permissions/privapp-permissions-oem.xml \
     $(LOCAL_PATH)/prebuilts/lib/libopcameralib-em.so:system/lib/libopcameralib-em.so
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
